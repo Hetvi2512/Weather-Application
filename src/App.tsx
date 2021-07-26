@@ -6,8 +6,8 @@ import CurrentWeather from "./components/Weather/CurrentWeather";
 import WeeklyWeather from "./components/Weather/WeeklyWeather";
 import HourlyWeather from "./components/Weather/HourlyWeather";
 
-import { AppStore } from "./redux/store";
 import { toggleWeeklyHourly } from "./redux/actions/appAction";
+import { AppStore } from "./redux/store";
 import "./App.css";
 function App() {
   const { hourly, isDarkMode } = useSelector((store: AppStore) => store.app);
