@@ -1,0 +1,68 @@
+{
+  "name": "my-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^19.2.47",
+    "@tailwindcss/typography": "^0.4.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/enzyme": "^3.10.9",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.0",
+    "@types/redux-logger": "^3.0.9",
+    "@types/redux-persist": "^4.3.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "autoprefixer": "^10.3.1",
+    "axios": "^0.21.1",
+    "craco": "0.0.3",
+    "dark-mode-toggle": "^0.8.0",
+    "dayjs": "^1.10.6",
+    "dotenv": "^10.0.0",
+    "enzyme": "^3.11.0",
+    "moment": "^2.29.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "react": "^17.0.2",
+    "react-dark-mode-toggle": "^0.2.0",
+    "react-debounce-input": "^3.2.4",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
